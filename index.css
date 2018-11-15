@@ -1,3 +1,15 @@
 .highlight {
     color: red;
 }
+
+section img {
+    width: 35rem;
+}
+
+p.subtitle {
+    font-size: 1rem;
+}
+
+p.bold {
+    font-weight: bold;
+}
