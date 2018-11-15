@@ -131,8 +131,10 @@
         dependencies: [
             { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/classList.js' },
             { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/math/math.js', async: true },
-            { src: 'plugins/chart/Chart.min.js' },				
-            { src: 'plugins/chart/csv2chart.js' },
+            { src: 'https://cdn.jsdelivr.net/gh/rajgoel/reveal.js-plugins@master/chart/Chart.min.js' },				
+            { src: 'https://cdn.jsdelivr.net/gh/rajgoel/reveal.js-plugins@master/chart/csv2chart.js' },
+            /*{ src: 'plugins/chart/Chart.min.js' },				
+            { src: 'plugins/chart/csv2chart.js' },*/
         ]
     });
 
