@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Dr+Sugiyama');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 /* background: linear-gradient(89deg, #60a392, #e35149, #ce18ec);
 background-size: 600% 600%; */
@@ -40,8 +41,12 @@ p.bold {
     font-weight: bold;
 }
 
-.styled {
+.special {
     font-family: 'Dr Sugiyama', cursive !important;
+}
+
+.styled {
+    font-family: 'Gloria Hallelujah', cursive !important;
 }
 
 .dots li:nth-child(n+2)::before {
